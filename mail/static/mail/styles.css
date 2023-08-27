@@ -1,0 +1,62 @@
+textarea {
+    min-height: 400px;
+}
+
+/* Styles for the Reply button */
+button.reply-btn {
+    background-color: #007BFF; /* Blue */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+/* Hover effect for the Reply button */
+button.reply-btn:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Styles for the Archive button */
+button.archive-btn {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+/* Hover effect for the Archive button */
+button.archive-btn:hover {
+    background-color: #d32f2f; /* Darker red */
+}
+
+
+.email-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-detail {
+    flex: 1; /* This allows the details to equally share the available space */
+    padding: 0 10px; /* Add some padding between each detail */
+}
+
+.email-timestamp {
+    flex-basis: 300px; /* Assign a fixed width to the timestamp */
+    text-align: right; /* Align the timestamp to the right */
+}
